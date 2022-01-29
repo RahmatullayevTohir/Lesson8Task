@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:background="#8BC34A"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:background="#FF5722"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tv_name"
+                android:textSize="25sp"
+                android:text="Jhon Terry"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tv_number"
+                android:textSize="20sp"
+                android:text="+998990026940"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
